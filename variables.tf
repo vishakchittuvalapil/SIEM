@@ -1,14 +1,11 @@
-############################
-# Variables
-############################
 variable "tenancy_ocid" {
-  default = "ocid1.tenancy.oc1..aaaaaaaakxcj247rl2tyoc6bsmexmcnku6x6ze4p55lqfobmww2rnrjbksiq"
+  default = "ocid1.tenancy.oc1..aaaaaa"
 }
 variable "user_ocid" {
-  default = "ocid1.user.oc1..aaaaaaaauul6bfchwqfnqaxkegtuhu5xsut7xkpdd3qytmkytbfv27n2znja"
+  default = "ocid1.user.oc1..aaaaaaaauula"
 }
 variable "fingerprint" {
-  default = "a7:31:0a:70:ec:e2:77:51:00:bb:fd:c7:8f:73:80:f6"
+  default = "a7:31:0a:70:ec:e2:"
 }
 variable "private_key_path" {
   default = "/Users/vchittuv/.oci/terraform.pem"
@@ -18,7 +15,7 @@ variable "region" {
 }
 
 variable "compartment_id" {
-  default = "ocid1.compartment.oc1..aaaaaaaapjdzahspbgldg4d7vwtty47hywkaqu3372jj2cytb7chlaiqmgha"
+  default = "ocid1.compartment.oc1..aaaaaaaapj"
 }
 
 
@@ -35,7 +32,7 @@ variable "connector_name" {
 }
 
 variable "private_subnet_id" {
-  default = "ocid1.subnet.oc1.iad.aaaaaaaahteqatnfgjd2nb4355qylb3nhx3scxtbg4krekhhcqz2knx73s5a"
+  default = "ocid1.subnet.oc1.iad.aaaaaaaah"
 }
 
 variable "private_endpoint_nsg_ids" {
